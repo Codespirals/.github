@@ -27,7 +27,7 @@ Structure
 
 ## Misc
 ### Symbols
-☭ - completly open source. free to fork, modify and use for anyone however they wish
-🔓 - open source, but with an attribution licence
-🔑 - private until fully tested and released
-🔒 - private with no current plans to release publicly
+* ☭ completly open source. free to fork, modify and use for anyone however they wish
+* 🔓 open source, but with an attribution licence
+* 🔑 private until fully tested and released
+* 🔒 private with no current plans to release publicly
