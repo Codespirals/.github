@@ -17,10 +17,10 @@ A codespirals library is a set of code made for a specific purpose, which is usu
 A codespirals solution is a set of code with full functionality that solves some requirement, which can be implemented into a project.
 #### Structure
 * A solution contains all necessary Interfaces, Entities, Models to achieve its goal
- * Options
-  * Most solutions also contain an "option" POGO class which will be injected into the services of the solution, which dictates the options that can be set that will later be read by the solution code
- * App builder extensions
-  * A set of extensions to simplify adding the the solution's services to the builder (usually "Program.cs" file)
+  * Options
+    * Most solutions also contain an "option" POGO class which will be injected into the services of the solution, which dictates the options that can be set that will later be read by the solution code
+  * App builder extensions
+    * A set of extensions to simplify adding the the solution's services to the builder (usually "Program.cs" file)
 
 ## Current generic codespirals packages:
 ### Libraries
