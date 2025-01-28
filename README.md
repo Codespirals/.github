@@ -6,12 +6,12 @@ A GitHub repository to upload and save reusable, broadly generic projects that c
 A codespirals module is a code library made for a specific purpose, which is usually described by the module's name and README.
 Structure
 * Codespirals libraries usually contain anywhere from one to all of the following submodules, depending on size and scope:
- * Shared
-   * Collections of interfaces that dictate the outline and behaviour of objects 
- * Frontend
-  * A set of classes and interfaces building upon the "Shared" package to facilitate the use of the module in a frontend application. 
- * Backend
-  * An as generically-as-possible implemented set of the interfaces from the "Shared" package to facilitate adding the module to a user's EF Core database and generally using it in backend code.
+  * Shared
+    * Collections of interfaces that dictate the outline and behaviour of objects
+  * Frontend
+    * A set of classes and interfaces building upon the "Shared" package to facilitate the use of the module in a frontend application. 
+  * Backend
+    * An as generically-as-possible implemented set of the interfaces from the "Shared" package to facilitate adding the module to a user's EF Core database and generally using it in backend code.
 
 ## Current generic codespirals packages:
 * Base - A few basic interfaces that simplify some basic actions and classes. ☭🔑 Progress: 100% (In testing)
