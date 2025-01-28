@@ -14,11 +14,12 @@ Structure
     * An as generically-as-possible implemented set of the interfaces from the "Shared" package to facilitate adding the module to a user's EF Core database and generally using it in backend code.
 
 ## Current generic codespirals packages:
+### Libraries
 * Base - A few basic interfaces that simplify some basic actions and classes. ☭🔑 Progress: 100% (In testing)
 * Api - A set of extensions and code to streamline building an API. ☭🔑 Progress: 40%
 * Users - Unified user handling for smaller projects. ☭🔑 Progress: 100% (In testing)
 
-## Codespirals solutions
+### Solutions
 * Mail - A service to very easily implement mailing in any project. ☭🔑 Progress: 90%
 * ApiCaller - A service to standardize calling an API from code. ☭🔑 Progress: 100% (In testing)
 * Scheduler - A package to easily add a Quartz task scheduler to a project. ☭🔑 Progress: 70%
