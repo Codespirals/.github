@@ -2,7 +2,7 @@
 
 A GitHub repository to upload and save reusable, broadly generic projects that can be integrated into other projects to reduce code duplication.
 
-## Libraries:
+### Libraries:
 A codespirals module is a code library made for a specific purpose, which is usually described by the module's name and README.
 Structure
 * Codespirals libraries usually contain anywhere from one to all of the following submodules, depending on size and scope:
