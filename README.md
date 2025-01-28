@@ -3,8 +3,8 @@
 A GitHub repository to upload and save reusable, broadly generic projects that can be integrated into other projects to reduce code duplication.
 
 ### Libraries:
-A codespirals module is a code library made for a specific purpose, which is usually described by the module's name and README.
-Structure
+A codespirals library is a set of code made for a specific purpose, which is usually described by the module's name and README.
+#### Structure
 * Codespirals libraries usually contain anywhere from one to all of the following submodules, depending on size and scope:
   * Shared
     * Collections of interfaces that dictate the outline and behaviour of objects
@@ -12,6 +12,15 @@ Structure
     * A set of classes and interfaces building upon the "Shared" package to facilitate the use of the module in a frontend application. 
   * Backend
     * An as generically-as-possible implemented set of the interfaces from the "Shared" package to facilitate adding the module to a user's EF Core database and generally using it in backend code.
+
+### Solutions:
+A codespirals solution is a set of code with full functionality that solves some requirement, which can be implemented into a project.
+#### Structure
+* A solution contains all necessary Interfaces, Entities, Models to achieve its goal
+ * Options
+  * Most solutions also contain an "option" POGO class which will be injected into the services of the solution, which dictates the options that can be set that will later be read by the solution code
+ * App builder extensions
+  * A set of extensions to simplify adding the the solution's services to the builder (usually "Program.cs" file)
 
 ## Current generic codespirals packages:
 ### Libraries
